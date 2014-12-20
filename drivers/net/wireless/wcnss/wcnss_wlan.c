@@ -214,6 +214,7 @@ static DEFINE_SPINLOCK(reg_spinlock);
 #define WCNSS_VBATT_LEVEL_IND         (WCNSS_CTRL_MSG_START + 8)
 #define WCNSS_BUILD_VER_REQ           (WCNSS_CTRL_MSG_START + 9)
 #define WCNSS_BUILD_VER_RSP           (WCNSS_CTRL_MSG_START + 10)
+#define WCNSS_PM_CONFIG_REQ           (WCNSS_CTRL_MSG_START + 11)
 
 /* max 20mhz channel count */
 #define WCNSS_MAX_CH_NUM			45
